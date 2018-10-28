@@ -4,25 +4,27 @@ class SideMenu extends Component {
   render() {
     return (
       <div>
-        <ul className="list-group">
-          <li className="list-group-item bg-light rounded-0">Cras justo odio</li>
-          <li className="list-group-item bg-light">Dapibus ac facilisis in</li>
-          <li className="list-group-item bg-light">Morbi leo risus</li>
-          <li className="list-group-item bg-light">Porta ac consectetur ac</li>
-          <li className="list-group-item bg-light">Dapibus ac facilisis in</li>
-          <li className="list-group-item bg-light">Morbi leo risus</li>
-          <li className="list-group-item bg-light">Porta ac consectetur ac</li>
-          <li className="list-group-item bg-light">Dapibus ac facilisis in</li>
-          <li className="list-group-item bg-light">Morbi leo risus</li>
-          <li className="list-group-item bg-light">Porta ac consectetur ac</li>
-          <li className="list-group-item bg-light">Dapibus ac facilisis in</li>
-          <li className="list-group-item bg-light">Morbi leo risus</li>
-          <li className="list-group-item bg-light">Porta ac consectetur ac</li>
-          <li className="list-group-item bg-light">Dapibus ac facilisis in</li>
-          <li className="list-group-item bg-light">Morbi leo risus</li>
-          <li className="list-group-item bg-light">Porta ac consectetur ac</li>
-          <li className="list-group-item bg-light rounded-0">Vestibulum at eros</li>
-        </ul>
+        <nav>
+          <ul className="list-group pagination">
+            <li className="bg-light rounded-0 active"><a href="#" className="text-dark page-link bg-light">Cras justo odio</a></li>
+            <li><a href="#" className="text-dark page-link bg-light">Dapibus ac facilisis in</a></li>
+            <li className="bg-light"><a href="#" className="text-dark page-link bg-light">Morbi leo risus</a></li>
+            <li className="bg-light"><a href="#" className="text-dark page-link bg-light">Porta ac consectetur ac</a></li>
+            <li className="bg-light"><a href="#" className="text-dark page-link bg-light">Dapibus ac facilisis in</a></li>
+            <li className="bg-light"><a href="#" className="text-dark page-link bg-light">Morbi leo risus</a></li>
+            <li className="bg-light"><a href="#" className="text-dark page-link bg-light">Porta ac consectetur ac</a></li>
+            <li className="bg-light"><a href="#" className="text-dark page-link bg-light">Dapibus ac facilisis in</a></li>
+            <li className="bg-light"><a href="#" className="text-dark page-link bg-light">Morbi leo risus</a></li>
+            <li className="bg-light"><a href="#" className="text-dark page-link bg-light">Porta ac consectetur ac</a></li>
+            <li className="bg-light"><a href="#" className="text-dark page-link bg-light">Dapibus ac facilisis in</a></li>
+            <li className="bg-light"><a href="#" className="text-dark page-link bg-light">Morbi leo risus</a></li>
+            <li className="bg-light"><a href="#" className="text-dark page-link bg-light">Porta ac consectetur ac</a></li>
+            <li className="bg-light"><a href="#" className="text-dark page-link bg-light">Dapibus ac facilisis in</a></li>
+            <li className="bg-light"><a href="#" className="text-dark page-link bg-light">Morbi leo risus</a></li>
+            <li className="bg-light"><a href="#" className="text-dark page-link bg-light">Porta ac consectetur ac</a></li>
+            <li className="bg-light rounded-0"><a href="#" className="text-dark page-link bg-light">Vestibulum at eros</a></li>
+          </ul>
+        </nav>
       </div>
     )
   }
